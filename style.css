@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#page1 {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #c5bdb3;
+    position: relative;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+#nav {
+    height: 100px;
+
+    width: 100vw;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+#nav img {
+    height: 30px;
+
+}
+
+#nav h5 {
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+#nav i {
+    margin-right: 150px;
+}
+
+#elems {
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+
+}
+
+#elem1 {
+    width: 30%;
+    height: 100%;
+
+
+}
+
+#elem2 {
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    padding: 20px 60px;
+    align-content: center;
+
+
+    border-left: 2px solid black;
+
+}
+
+#elem3 {
+    width: 30%;
+    height: 100%;
+
+}
+
+#elem1 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#elem3 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#image-div:hover img {
+    scale: 1.2;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#elem1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem1 h4 span {
+    background-color: orangered;
+    color: #c5bdb3;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem1 p {
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+}
+
+#elem3 h4 span {
+    background-color: orangered;
+    color: #c5bdb3;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem3 p {
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+}
+
+#elem3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem2 h2 {
+    font-family: canopee;
+    font-size: 90px;
+
+    font-weight: 100;
+    margin-left: 60px;
+}
+
+#elem2 h3 {
+    margin-left: 60px;
+
+
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+}
+
+#elem2 h6 {
+    margin-left: 60px;
+}
+
+#page1 h1 {
+    font-size: 670px;
+    background-color: #1c1c19;
+    letter-spacing: -25%;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-family: canopee;
+    line-height: 600px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#page2 {
+    height: 160vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+#page2-left {
+    height: 100%;
+    width: 35%;
+
+    padding-right: 50px;
+    border-right: 1px solid black;
+}
+
+#page2-left h2 {
+    font-size: 150px;
+    font-weight: 500;
+    font-family: canopee;
+    text-align: center;
+    line-height: 150px;
+
+}
+
+#page2-left h2 span {
+    font-size: 210px;
+
+
+    font-weight: 900;
+}
+
+#page2-right {
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+
+#page2-right img {
+    height: 53%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#page2-right h1 {
+    font-family: canopee;
+    font-size: 140px;
+    letter-spacing: -4px;
+}
+
+#page2-left img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+#page2-left p {
+    font-size: 30px;
+    color: #1c1c19;
+    margin-top: 20px;
+}
+
+#page3 {
+    position: relative;
+    background-color: #c4bcb3;
+}
+
+#page3 h1 {
+    font-size: 500px;
+    font-family: canopee;
+    letter-spacing: -10px;
+    background-color: #1c1c19;
+    width: 70%;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 450px;
+    color: #c4bcb3;
+
+}
+
+#page3 img{
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
